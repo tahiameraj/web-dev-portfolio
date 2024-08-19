@@ -15,6 +15,7 @@
 font-weight: bold; color: white; padding: 18px 35px; border-radius: 5px; border: none;}
 .section-title{font-size: 35px; font-weight:bold; color: #181818 ;}
 .section-desc{font-size: 18px; color: #757575;}
+.text-center{ text-align: center;}
 .sec-bg{background-color: #FFF8F3; }
 
 /* header syles */
@@ -38,8 +39,15 @@ font-size: 20px;}
 
 /* main styles */
 main{max-width: 1140px; margin: 0 auto;}
+main section{margin-top: 130px; margin-bottom: 130px;}
 
 /* about styles */
-.about{ border-radius: 10px; padding: 130px 150px; text-align: center; margin-top: 130px;}
+.about{ border-radius: 10px; padding: 130px 150px; text-align: center;}
 .item-desc{ font-weight: 600;}
 .about-items{display: flex; justify-content: space-between;}
+
+/* skills section styles */
+.skills-container{display: flex; gap: 24px;}
+.skill{padding: 30px;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+border-radius: 5px;}
